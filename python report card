@@ -1,0 +1,14 @@
+class Reportcard:
+    def __init__(self,n,a,r,p,e):
+        self.name = n
+        self.age = a
+        self.rollno = r
+        self.phone = p
+        self.email = e
+
+
+rep1 = Reportcard("Aashish",22,1954767,7770059373,"uel.ac.uk")
+print(rep1.__dict__)
+print("     ")
+rep2 = Reportcard("Aashish",22,1954767,7770059373,"uel.ac.uk")
+print(rep2.__dict__)
